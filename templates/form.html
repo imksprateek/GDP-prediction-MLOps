@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GDP Predictor</title>
+</head>
+<body>
+    <h2>Enter values to predict GDP</h2>
+    <form action="/predict" method="POST">
+        <label>Investment:</label>
+        <input type="number" name="investment" step="0.01" required><br><br>
+        
+        <label>Consumption:</label>
+        <input type="number" name="consumption" step="0.01" required><br><br>
+        
+        <label>Exports:</label>
+        <input type="number" name="exports" step="0.01" required><br><br>
+        
+        <input type="submit" value="Predict GDP">
+    </form>
+</body>
+</html>
